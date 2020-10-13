@@ -8,7 +8,7 @@ function nombreFuncion(){
 }
 
 //Invocar una funcion Declarada
-nombreFuncion();
+
 
 //-----------------------------------------------
 
@@ -18,7 +18,7 @@ const nomFunAnonima = function(){
 }
 
 //Invocar una funcion anonima
-nomFunAnonima();
+
 
 //-----------------------------------------------
 
