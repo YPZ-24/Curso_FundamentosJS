@@ -15,17 +15,16 @@ const arrowFunction1l = (para1, para2) => console.log("Soy una arroyFunction de 
 //---No necesita parentesis en los parametros
 const arrowFunction1p = (para1) => console.log("Soy una arrow function de un parametro")
 
-
 //CON RETURN IMPLICITO
 //---En lugar de hacer esto...
 function resta(num1, num2){
     return num1 - num2;
 }
-console.log(resta(5,3))
+//console.log(resta(5,3))
 
 //---Hacemos esto
 const restaArrow = (num1, num2) => num1 - num2;
-console.log(restaArrow(5,3));
+//console.log(restaArrow(5,3));
 
 //CAPTURAN EL CONTEXTO DONDE SE ENCUENTRAN
 const personaArrow = {
