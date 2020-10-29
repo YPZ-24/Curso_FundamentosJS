@@ -23,6 +23,7 @@ const persona1 = new Persona("Zenely", 20, true, "Benito Juarez #30")
 const nombreP = persona1.nombre;
 const edadP = persona1.edad;
 //persona1.saludar()
+
 //--Notacion corchetes
 const nombreC = persona1["nombre"];
 const edadC = persona1["edad"];
