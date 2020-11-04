@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* MAQUETA */
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+/* TABLA */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table thead tr:first-child{
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 2rem;
+}
+
+table tr td{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+table tbody{
+    font-size: 1.8rem;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #ececec;
+}
+
+table tbody tr td:hover{
+    background-color: #da89ff;
+    color: white;
+}
+
+/* FORMULARIO */
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    gap: 1rem;
+}
+
+input, button{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 6px;
+}
+
+input[type="text"]{
+    border: 1px solid #6e4581;
+}
+
+input[type="text"]:hover{
+    border: 2px solid #6e4581;
+}
+
+button{
+    background-color: #da89ff;
+    color: white;
+    border: none;
+}
+
+/* MAQUETACION */
+@media(min-width: 650px){
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #table__products{
+        grid-column: 2/4;
+    }
+}
