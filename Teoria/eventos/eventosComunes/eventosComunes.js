@@ -12,7 +12,6 @@ inFocus.addEventListener('focus', () => {
 inFocus.onfocus = () => {
     console.log("Obtuve el foco");
 }*/
-
 inBlur.addEventListener('blur', () => {
     console.log("Perdi el foco");
 })

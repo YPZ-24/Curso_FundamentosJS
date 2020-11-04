@@ -12,6 +12,12 @@ body{
     padding: 2rem;
 }
 
+h1{
+    font-size: 8rem;
+    text-align: center;
+    font-family: monospace;
+}
+
 main{
     max-width: 650px;
     display: grid;
