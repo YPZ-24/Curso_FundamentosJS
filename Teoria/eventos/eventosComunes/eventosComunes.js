@@ -5,6 +5,7 @@ const inOnmouseover = document.querySelector('#onmouseover');
 const inOnmouseout = document.querySelector('#onmouseout');
 const inOnkeypress = document.querySelector('#onkeypress');
 
+
 inFocus.addEventListener('focus', () => {
     console.log("Obtuve el foco");
 })
@@ -12,6 +13,7 @@ inFocus.addEventListener('focus', () => {
 inFocus.onfocus = () => {
     console.log("Obtuve el foco");
 }*/
+
 inBlur.addEventListener('blur', () => {
     console.log("Perdi el foco");
 })
@@ -19,6 +21,7 @@ inBlur.addEventListener('blur', () => {
 inBlur.onblur = () => {
     console.log("Perdi el foco");
 }*/
+
 inOndblclick.addEventListener('dblclick', () => {
     console.log("Diste doble click");
 })
@@ -26,6 +29,7 @@ inOndblclick.addEventListener('dblclick', () => {
 inOndblclick.ondblclick = () => {
     console.log("Diste doble click");
 }*/
+
 inOnmouseover.addEventListener('mouseover', () => {
     console.log("Mouse entro a mi");
 })
@@ -33,6 +37,7 @@ inOnmouseover.addEventListener('mouseover', () => {
 inOnmouseover.onmouseover = () => {
     console.log("Mouse entro a mi");
 }*/
+
 inOnmouseout.addEventListener('mouseout', ()=>{
     console.log("Mouse salio de mi");
 })
@@ -40,6 +45,7 @@ inOnmouseout.addEventListener('mouseout', ()=>{
 inOnmouseout.onmouseout = () => {
     console.log("Mouse salio de mi");
 }*/
+
 inOnkeypress.addEventListener('keypress', ()=>{
     console.log("Presionaste una letra");
 })

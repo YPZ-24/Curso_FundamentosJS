@@ -28,6 +28,5 @@ function submitForm(e){
     tr.appendChild(tdPrecio);
     //Meto la fila en el cuerpo de la tabla
     tableProductosBody.appendChild(tr);
-
     e.preventDefault();
 }
